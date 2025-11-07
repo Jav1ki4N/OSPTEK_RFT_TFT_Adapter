@@ -14,6 +14,6 @@ It allows you to interface the display directly with your MCU by connecting the 
 | Resisiter  | 0R                       | 0Ω                                          | 1        |
 | Resisiter  | R2                       | 1kΩ / 470Ω... ，depends on the choice of LED | 1        |
 | LED        | POWER                    | -                                           | 1        |
-| FPC dip    | FPC DIP                  | 24Pin 0.5mm                                 | 1        |
+| FPC dip    | FPC DIP                  | 24Pin 0.5mm Top Contact                               | 1        |
 | Pin Header | -                        | 8  Pin 2.54mm                               | 1        |
 | Screw      | -                        | M2                                          | 4        |
