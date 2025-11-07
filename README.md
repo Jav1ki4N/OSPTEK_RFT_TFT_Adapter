@@ -2,7 +2,7 @@
 An adapter board for the Osptek ST7306 reflective TFT displays.
 It allows you to interface the display directly with your MCU by connecting the corresponding pins.
 
-**THE FPC CONNECTOR MUST BE TOP CONTACE**, that is, the FPC cable must be inserted with the contact pads facing up.
+**THE FPC CONNECTOR MUST BE TOP CONTACT**, that is, the FPC cable must be inserted with the contact pads facing up.
 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/2D_PCB/Top.png)
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/2D_PCB/Buttom.png)
