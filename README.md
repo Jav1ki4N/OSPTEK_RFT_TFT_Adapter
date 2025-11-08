@@ -49,8 +49,6 @@ Below is a demonstration of the display running on an STM32F4 MCU in bare-metal 
 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/ItWorksOnMyDevice.gif)
 
-可以，这段话我帮你润色成正式、自然的英文版本，保持简洁、技术风格一致，适合放在 README 的末尾使用：
-
 ---
 
 ## Quick Start
