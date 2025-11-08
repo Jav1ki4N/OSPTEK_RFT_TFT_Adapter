@@ -1,6 +1,6 @@
 # OSPTEK RFT TFT Adapter
 
-An adapter board designed for **Osptek ST7306 reflective TFT display**.
+An adapter board designed for **Osptek ST7306 reflective TFT display**, you can purchase it from AliExpress or TaoBao.
 It allows you to directly interface the display with your MCU via simple pin connections.
 
 > **Important:**
@@ -35,7 +35,7 @@ It allows you to directly interface the display with your MCU via simple pin con
 
 ## Assembly Notes
 
-The display aligns perfectly with the board.
+The display aligns almost perfectly with the board.
 For a tighter fit, a **1 mm EVA foam tape** can be placed between the PCB and the display.
 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/HowItLooksLike.jpg)
