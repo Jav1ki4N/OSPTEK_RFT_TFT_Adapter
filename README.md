@@ -1,29 +1,54 @@
-# OSPTEK_RFT_TFT_Adapter
-An adapter board for the Osptek ST7306 reflective TFT displays.
-It allows you to interface the display directly with your MCU by connecting the corresponding pins.
+---
 
-**THE FPC CONNECTOR MUST BE TOP CONTACT**, that is, the FPC cable must be inserted with the contact pads facing up.
+# OSPTEK RFT TFT Adapter
 
+An adapter board designed for **Osptek ST7306 reflective TFT display**.
+It allows you to directly interface the display with your MCU via simple pin connections.
+
+> **Important:**
+> The **FPC connector must be Top Contact**, meaning the display’s FPC cable should be inserted with the **contact pads facing upward**.
+
+---
+
+## PCB Overview
+
+**Top View**
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/2D_PCB/Top.png)
+
+**Bottom View**
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/2D_PCB/Buttom.png)
 
-| Type       | Name                     | Value                                       | Quantity |
-| ---------- | ------------------------ | ------------------------------------------- | -------- |
-| Capacitor  | C1,C3,C5,C6,C7,C8,C9,C10 | 1uF                                         | 8        |
-| Capacitor  | C2,C4                    | 0.1uF / 100nF                               | 2        |
-| Resisiter  | 0R                       | 0Ω                                          | 1        |
-| Resisiter  | R2                       | 1kΩ / 470Ω... ，depends on the choice of LED | 1        |
-| LED        | POWER                    | -                                           | 1        |
-| FPC dip    | FPC DIP                  | 24Pin 0.5mm Top Contact                               | 1        |
-| Pin Header | -                        | 8  Pin 2.54mm                               | 1        |
-| Screw      | -                        | M2                                          | 4        |
+---
 
-I've checked the adapter and it works fine for now.
+## BOM
+
+| Type          | Name                            | Value / Description                   | Qty |
+| ------------- | ------------------------------- | ------------------------------------- | --- |
+| Capacitor     | C1, C3, C5, C6, C7, C8, C9, C10 | 1 µF                                  | 8   |
+| Capacitor     | C2, C4                          | 0.1 µF / 100 nF                       | 2   |
+| Resistor      | R1                              | 0 Ω (jumper)                          | 1   |
+| Resistor      | R2                              | 1 kΩ ~ 470 Ω (depends on LED current) | 1   |
+| LED           | POWER                           | Power indicator LED                   | 1   |
+| FPC Connector | FPC DIP                         | 24 Pin – 0.5 mm Pitch – Top Contact   | 1   |
+| Pin Header    | —                               | 8 Pin – 2.54 mm Pitch                 | 1   |
+| Screw         | —                               | M2                                    | 4   |
+
+---
+
+## Assembly Notes
+
+The display aligns perfectly with the board.
+For a tighter fit, a **1 mm EVA foam tape** can be placed between the PCB and the display.
 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/HowItLooksLike.jpg)
 
-The display fits just as well, but an EVA form tape (1mm) can be placed between the board and the display to fix it.
- 
+---
+
+## Verification
+
+The adapter has been fully tested and confirmed working.
+Below is a demonstration of the display running on an STM32F4 MCU in bare-metal mode:
+
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/ItWorksOnMyDevice.gif)
- 
-The code for testing has been attached in the files, noted that it only runs on vare metal STM32F4.
+
+
