@@ -53,7 +53,7 @@ Below is a demonstration of the display running on an STM32F4 MCU in bare-metal 
 
 ---
 
-## 💡 Quick Start
+## Quick Start
 
 To test the display, simply call:
 
