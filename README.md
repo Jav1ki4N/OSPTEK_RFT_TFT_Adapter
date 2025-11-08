@@ -1,5 +1,3 @@
----
-
 # OSPTEK RFT TFT Adapter
 
 An adapter board designed for **Osptek ST7306 reflective TFT display**.
