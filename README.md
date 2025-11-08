@@ -22,8 +22,8 @@ I've checked the adapter and it works fine for now.
 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/HowItLooksLike.jpg)
 
-The display fits just as well, but an EVA form tape (1mm) can be placed between the board and the display.
-
+The display fits just as well, but an EVA form tape (1mm) can be placed between the board and the display to fix it.
+ 
 ![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/ItWorksOnMyDevice.gif)
-
+ 
 The code for testing has been attached in the files, noted that it only runs on vare metal STM32F4.
