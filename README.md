@@ -17,3 +17,10 @@ It allows you to interface the display directly with your MCU by connecting the 
 | FPC dip    | FPC DIP                  | 24Pin 0.5mm Top Contact                               | 1        |
 | Pin Header | -                        | 8  Pin 2.54mm                               | 1        |
 | Screw      | -                        | M2                                          | 4        |
+
+I've checked the adapter and it works fine for now.
+
+![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/HowItLooksLike.jpg)
+![](https://raw.githubusercontent.com/Jav1ki4N/OSPTEK_RFT_TFT_Adapter/refs/heads/main/Verification/ItWorksOnMyDevice.gif)
+
+The code has been attached.
