@@ -51,9 +51,9 @@ Below is a demonstration of the display running on an STM32F4 MCU in bare-metal 
 
 ---
 
-## Quick Start
+## Quick Test
 
-To test the display, simply call:
+You can use a STM32Fx to quick test the display, simply call:
 
 ```c
 LCD_Init();
@@ -63,7 +63,7 @@ Fill_Black();
 The screen should then be completely filled with black pixels.
 
 > **Note:**
-> The provided code is **only intended for testing** on bare-metal STM32F4 platforms.
-> For more complete and feature-rich implementations, you can find well-developed drivers for **ESP32** on GitHub.
+> The provided code is **only intended for testing** and cannot serve as a driver.
+> For more complete and feature-rich implementations, you can drivers for **ESP32** on GitHub.
 
 --- 
