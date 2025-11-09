@@ -64,6 +64,6 @@ The screen should then be completely filled with black pixels.
 
 > **Note:**
 > The provided code is **only intended for testing** and cannot serve as a driver.
-> For more complete and feature-rich implementations, you can drivers for **ESP32** on GitHub.
+> For more complete and feature-rich implementations, you can find drivers for **ESP32** on GitHub.
 
 --- 
