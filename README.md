@@ -24,7 +24,7 @@ It allows you to directly interface the display with your MCU via simple pin con
 | ------------- | ------------------------------- | ------------------------------------- | --- |
 | Capacitor     | C1, C3, C5, C6, C7, C8, C9, C10 | 1 µF                                  | 8   |
 | Capacitor     | C2, C4                          | 0.1 µF / 100 nF                       | 2   |
-| Resistor      | R1                              | 0 Ω (jumper)                          | 1   |
+| Resistor      | R1                              | 0 Ω                                   | 1   |
 | Resistor      | R2                              | 1 kΩ ~ 470 Ω (depends on LED current) | 1   |
 | LED           | POWER                           | Power indicator LED                   | 1   |
 | FPC Connector | FPC DIP                         | 24 Pin – 0.5 mm Pitch – Top Contact   | 1   |
